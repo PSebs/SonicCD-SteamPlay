@@ -1,0 +1,7 @@
+"manifest"
+{
+	"commandline"			"/regta_wrapper run"
+	"commandline_waitforexitandrun"	"/regta_wrapper wait-before-run"
+	"commandline_getnativepath"	"/regta_wrapper get-native-path"
+	"commandline_getcompatpath"	"/regta_wrapper get-compat-path"
+}

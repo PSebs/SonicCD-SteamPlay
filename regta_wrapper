@@ -1,0 +1,27 @@
+#!/bin/sh
+
+# there's run & wait-before-run, we only care about the latter.
+COMMANDTYPE=$1
+
+# this is how Steam tries to run the game
+if [ "$COMMANDTYPE" == "wait-before-run" ]; then
+	# used to decipher which game we'll play
+	GAMEBINARY=$(basename "$2")
+	# steam game dir
+	GAMEDIR=$(dirname "$2")
+
+	PARMARR=( "$@" )
+	ARGLEN=${#PARMARR[@]}
+	GAMEARGS=${PARMARR[@]:2:$ARGLEN-1}
+
+	if [ "$GAMEBINARY" == "soniccd.exe" ]; then
+		cd "$GAMEDIR"
+		if ! [ -f ./RSDKv3 ]; then
+			if ! [ -f ./linuxBuild.tar.gz ]; then
+				wget https://github.com/PSebs/Sonic-CD-11-Decompilation/releases/download/1.3.0/linuxBuild.tar.gz
+			fi
+			tar xvfz ./linuxBuild.tar.gz
+		fi
+		./RSDKv3
+	fi
+fi
