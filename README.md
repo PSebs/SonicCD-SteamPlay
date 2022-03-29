@@ -12,6 +12,7 @@ In order to install it, you just clone
 the repository into your $HOME/.steam/steam/compatibilitytools.d/SonicCD-steamplay directory.
 If those those folders don't exist, just create the folders and dump the repository there.
 
+After doing that, go to Sonic CD's properties on steam and force a Steam Play compatitbility tool and then pick SonicCD-Decomp
 
 
 # License
