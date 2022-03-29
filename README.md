@@ -6,10 +6,11 @@ Sonic CD but you can run it on steam on linux. A fork of this project https://gi
 None, it expects your /bin/sh to handle arrays and things though.
 
 # Installation
+If you use a Steam Deck, just go into desktop mode.
 In order to install it, you just clone
-the repository into your $HOME/.steam/steam/compatibilitytools.d/ directory.
+the repository into your $HOME/.steam/steam/compatibilitytools.d/SonicCD-steamplay directory.
+If those those folders don't exist, just create the folders and dump the repository there.
 
-If the directory 'compatibilitytools.d' does not exist, make sure to create it.
 
 
 # License
