@@ -14,7 +14,7 @@ If those those folders don't exist, just create the folders and dump the reposit
 
 After doing that, go to Sonic CD's properties on steam and force a Steam Play compatitbility tool and then pick SonicCD-Decomp
 
-One thing to note, it comes with a custom settings.ini file that's has a ScreenWidth set to 384. That was to accomidate the 16:10 screen for the steam deck. If you want to change it to 16:9, just set it to the original 424 value.
+One thing to note, it comes with a custom settings.ini file that's has a ScreenWidth set to 384. That was to accommodate the Deck's 16:10 screen. If you want to change it to 16:9, just set it to the original 424 value.
 
 # License
 
