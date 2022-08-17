@@ -8,8 +8,7 @@ None, it expects your /bin/sh to handle arrays and things though.
 # Installation
 If you use a Steam Deck, just go into desktop mode.
 
-In order to install it, you just clone
-the repository into your $HOME/.steam/steam/compatibilitytools.d/SonicCD-steamplay directory.
+In order to install it, you just download the latest release the and then extract it into your $HOME/.steam/steam/compatibilitytools.d/ directory.
 If those those folders don't exist, just create the folders and dump the repository there.
 
 After doing that, go to Sonic CD's properties on steam and force a Steam Play compatitbility tool and then pick SonicCD-Decomp
